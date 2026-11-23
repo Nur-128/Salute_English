@@ -300,7 +300,7 @@ info_butonu=ctk.CTkButton(
 )
 
 info_butonu.grid(row=4, column=6, padx=10, pady=10)
-about_text = "Salute English v1.0\n\nUsed Technologies:\nPython\nCustomTkinter\n\nQuestion Content:\nEmre Çalışkan\n\nDeveloper:\nCivan Nur"
+about_text = "Salute English v1.0\n\nUsed Technologies:\nPython\nCustomTkinter\n\nQuestion Content:\n\n\nDeveloper:\nCivan Nur"
 
 about_label = ctk.CTkLabel(
     master=info_ekranı,
@@ -328,4 +328,5 @@ print(kaynak_yolu("sorular/001.png"))
 print(kaynak_yolu("questions.json"))
 
 #PENCEREYİ AÇIK TUTMAK İÇİN FONKSİYON
+
 app.mainloop()
